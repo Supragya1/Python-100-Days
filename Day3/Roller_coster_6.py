@@ -28,7 +28,7 @@ if height > 120:
     pic = input("Do you want a photo taken for Rs 50? (Y or N)\n")
     if pic == "y" or pic =="Y":
         bill+=50
-        print("Rs 100 deducted .....\nBalance Unlimited")
+        print("Rs 50 deducted .....\nBalance Unlimited")
         print("Welcome to the rollercoaster ride!")
 else:
     print("Sorry, you can't enter because your height is below the required.")
