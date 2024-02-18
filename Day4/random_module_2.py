@@ -9,7 +9,7 @@ def head_tail():
         print("You Lose")
 
 import random
-a = random.randint(1,20)
+a = random.randint(1,20) # random integer between 1 and 20 and including 1 and 20
 print("A random integer between 1 and 20 is", a)
 b = random.random() # random float between 0 and 1 not including 1
 print("A random float between 0 and 1 is", b)
