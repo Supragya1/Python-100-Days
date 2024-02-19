@@ -31,6 +31,10 @@ print("You can choose Rock, Paper or Scissors")
 list1 = [rock, paper, scissors]
 choice = int(input("Enter 1 for Rock, 2 for Paper, 3 for Scissors\n"))
 comp = secrets.randbelow(3) + 1 
+if(choice < 1 or choice > 3):
+    print("Invalid Choice")
+    print("Please select the correct choice")
+    exit()
 print(list1[choice-1])
 print("You chose")
 print(list1[comp-1])
@@ -49,6 +53,4 @@ elif(choice == 3 and comp == 1):
     print("You lose")
 elif(choice == 3 and comp == 2):
     print("You win")
-else:
-    print("Invalid Choice")
-    print("Please select the correct choice")
+
